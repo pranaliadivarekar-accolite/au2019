@@ -13,7 +13,6 @@ import java.util.List;
 public class App 
 {
 	public static void main(String[] args) throws JsonGenerationException, JsonMappingException, IOException {
-		System.out.println("Hello World!");
 		List<Integer> l = new ArrayList();
 		l.add(1);
 		l.add(2);
@@ -22,8 +21,4 @@ public class App
 		System.out.println(ut.convertToJson(l));
 		
 	}
-//    public static void main( String[] args )
-//    {
-//        System.out.println( "Hello World!" );
-//    }
 }
