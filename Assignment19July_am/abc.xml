@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Employee>
+    <Address>
+        <City>Mumbai</City>
+        <State>Maharashtra</State>
+        <Street>Lower</Street>
+        <Zip>13</Zip>
+    </Address>
+    <Id>1</Id>
+    <FirstName>Pranali</FirstName>
+    <LastName>Adivarekar</LastName>
+</Employee>
