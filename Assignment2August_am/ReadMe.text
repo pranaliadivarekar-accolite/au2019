@@ -1,0 +1,91 @@
+/*
+For dept 
+*/
+
+//Post req to save Dept
+Url: http://localhost:8080/api/department
+Body:
+ {
+	"departmentNo": "DEP1",
+	"departmentName": "HR"
+}
+
+Url: http://localhost:8080/api/department
+Body:
+ {
+	"departmentNo": "DEP2",
+	"departmentName": "CS"
+}
+
+Url: http://localhost:8080/api/department
+Body:
+ {
+	"departmentNo": "DEP3",
+	"departmentName": "Fin"
+}
+
+//Get dept by deptNo
+http://localhost:8080/api/department/DEP3
+
+//Get all dept
+http://localhost:8080/api/departments
+
+//Put to update dept
+Url: http://localhost:8080/api/department/DEP2
+Body:
+{
+	"departmentNo": "DEP2",
+	"departmentName": "HRNew"
+}
+
+//Delete to remove dept
+http://localhost:8080/api/department/DEP3
+
+//Get env var
+http://localhost:8080/api/departments
+
+
+/*
+For emp
+*/
+
+//Post req to save emp
+Url: http://localhost:8080/emp/employee
+Body:
+{
+	"empNo": 1,
+	"empName": "Pranali",
+	"salary": "4000000",
+	"designation": "FSD",
+	"email": "email"
+}
+
+Url: http://localhost:8080/emp/employee
+Body:
+{
+	"empNo": 2,
+	"empName": "Adivarekar",
+	"salary": "4000000",
+	"designation": "SSD",
+	"email": "emailId"
+}
+
+//Get emp by empNo
+http://localhost:8080/emp/employee/1
+
+//Get all emp
+http://localhost:8080/emp/employees
+
+//Put to update dept
+Url: http://localhost:8080/emp/employee/2
+Body:
+{
+	"empNo": 2,
+	"empName": "AdivarekarPranali",
+	"salary": "40000000",
+	"designation": "SSD",
+	"email": "emailId"
+}
+
+//Delete to remove emp
+http://localhost:8080/emp/employee/1
